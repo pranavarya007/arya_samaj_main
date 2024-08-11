@@ -7,16 +7,22 @@ import { logo } from "../assets/images";
 import Marquee from "react-fast-marquee";
 
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe2);
+  const [bigShoeImg] = useState(bigShoe2);
 
   return (
     <section>
       <Marquee pauseOnHover>
-        <div className="w-full rounded-xl flex font-light-bold text-sm cursor-pointer text-coral-red">
-          ओ३म् भूर्भुवः॒ स्व: तत्स॑वितुर्वरे॑ण्यं भ॒र्गो॑ दे॒वस्य॑ धीमहि धियो॒ यो नः॑ प्रचो॒दया॑त्॥
+        <div className="w-full rounded-xl flex font-light-bold text-sm cursor-pointer text-coral-red mt-1">
+        <span >ओ३म् भूर्भुवः॒ स्व: तत्स॑वितुर्वरे॑ण्यं भ॒र्गो॑ दे॒वस्य॑ धीमहि धियो॒ यो नः॑ प्रचो॒दया॑त्॥</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div className="w-full rounded-xl flex font-light-bold text-sm cursor-pointer text-coral-red mt-1">
+        <span >ओ३म् भूर्भुवः॒ स्व: तत्स॑वितुर्वरे॑ण्यं भ॒र्गो॑ दे॒वस्य॑ धीमहि धियो॒ यो नः॑ प्रचो॒दया॑त्॥</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div className="w-full rounded-xl flex font-light-bold text-sm cursor-pointer text-coral-red mt-1">
+        <span >ओ३म् भूर्भुवः॒ स्व: तत्स॑वितुर्वरे॑ण्यं भ॒र्गो॑ दे॒वस्य॑ धीमहि धियो॒ यो नः॑ प्रचो॒दया॑त्॥</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <div className="w-full rounded-xl flex font-light-bold text-sm cursor-pointer text-coral-red">
-          ओ३म् भूर्भुवः॒ स्व: तत्स॑वितुर्वरे॑ण्यं भ॒र्गो॑ दे॒वस्य॑ धीमहि धियो॒ यो नः॑ प्रचो॒दया॑त्॥
+          <span className="gap-3">     ओ३म् भूर्भुवः॒ स्व: तत्स॑वितुर्वरे॑ण्यं भ॒र्गो॑ दे॒वस्य॑ धीमहि धियो॒ यो नः॑ प्रचो॒दया॑त्॥</span>
         </div>
       </Marquee>
       
@@ -27,11 +33,19 @@ const Hero = () => {
       
       
         <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
-          <p className='text-xl font-semibold font-montserrat text-coral-red'>
-            Our Services
-          </p>
 
-          <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold'>
+          {/*
+            <p className='text-xl font-semibold font-montserrat text-coral-red'>
+            Celebrate Your Sacred Union with Authentic Arya Samaj Marriage
+          </p>
+          
+            */}
+            <p className='text-xl font-semibold font-montserrat text-coral-red mb-9'>
+            Celebrate Your Sacred Union with Authentic Arya Samaj Marriage
+          </p>
+          
+
+          <h1 className='mt-0 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold pt-0 max-lg:hidden'>
             <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
               Call Now To Book
             </span>
@@ -40,7 +54,7 @@ const Hero = () => {
             <span className='text-coral-red inline-block mt-3'>Our</span> Services
           </h1>
           <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Welcome to Arya Samaj Mandir - Where Ancient Vedic Traditions Meet Modern Convenience
+          Welcome to Arya Samaj Mandir - Where Ancient Vedic Traditions Meet Modern Convenience. Call now to book 
           </p>
 
           <span className="animate-bounce">
