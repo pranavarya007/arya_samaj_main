@@ -40,8 +40,9 @@ const Hero = () => {
           </p>
           
             */}
-            <p className='text-xl font-semibold font-montserrat text-coral-red mb-9'>
-            Celebrate Your Sacred Union with Authentic Arya Samaj Marriage
+            <p className='text-xl font-semibold font-montserrat  mb-9'>
+            <span>Celebrate Your Sacred Union with Authentic </span>
+             <span className="text-coral-red">Arya Samaj Marriage</span>
           </p>
           
 
