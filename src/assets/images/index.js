@@ -21,7 +21,7 @@ import shukhshanti from './shukhshanti.jpg'
 import sanskar from './sanskar.jpg'
 import assan from './assan.jpg'
 import bhoomipoojan from './bhoomipoojan.jpg'
-import grihapravesh from './grihapravesh.jpg'
+import grihapravesh from './grihapravesh_pt.jpg'
 import janamdin from './janamdin.jpg'
 
 import thumbnailBackground from './thumbnail-background.svg'
