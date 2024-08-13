@@ -6,7 +6,7 @@ const CallButton = () => {
   return (
     <a
       href="tel:+919212441177"
-      className="fixed bottom-24 right-5 bg-blue-600 text-white p-3 w-16 h-16 rounded-full shadow-lg flex items-center justify-center z-50 animate-bounce"
+      className="fixed bottom-16 right-5 bg-blue-600 text-white p-3 w-12 h-12 rounded-full shadow-lg flex items-center justify-center z-50 animate-bounce"
       style={{ fontSize: '1.5rem' }}
     >
       <FontAwesomeIcon icon={faPhone} className="mr-2" />
