@@ -54,7 +54,9 @@ const Hero = () => {
             <span className='text-coral-red inline-block mt-3'>Our</span> Services
           </h1>
           <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Welcome to Arya Samaj Mandir - Where Ancient Vedic Traditions Meet Modern Convenience. Call now to book 
+          Welcome to Arya Samaj Mandir - Where Ancient Vedic Traditions Meet Modern Convenience, 
+          begin your journey to marital bliss with Arya Samaj marriage. 
+          Call now to book 
           </p>
 
           <span className="animate-bounce">

@@ -1,11 +1,13 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, hawan, mundan, naamkaran, annaparan, annivarsary, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, hawan, mundan, naamkaran, annaparan, annivarsary, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, sanskar, shukhshanti, bhoomipoojan, grihapravesh, janamdin, meditation, assan, pravachan } from "../assets/images";
+
+
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
+    { href: "/", label: "Home" },
     { href: "#about-us", label: "About Us" },
     { href: "#services", label: "Services" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "/contact", label: "Contact Us" },
 ];
 
 export const shoes = [
@@ -31,9 +33,9 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: hawan,
-        name: "Hawan",
-        tagline: "Purify your home and soul with the sacred power of fire. Schedule your Hawan ceremony today to invite divine blessings and positive energy into your life."
+        imgURL: bigShoe3,
+        name: "Arya Samaj Marriage",
+        tagline: "Experience the purity of a Vedic Arya Samaj marriage, where simplicity and sacred rituals unite two souls in a bond of love and commitment. Our ceremonies honor tradition, ensuring a meaningful and spiritually uplifting wedding."
     },
     {
         imgURL: mundan,
@@ -47,12 +49,83 @@ export const products = [
     },
     {
         imgURL: annivarsary,
-        name: "Annivarsary Hawan",
+        name: "Anniversary Hawan",
         tagline: "Mark your anniversary with a sacred Hawan to renew your vows and invite continued blessings. Celebrate your enduring love with a ceremony that brings peace, prosperity, and spiritual harmony."
     },
+    {
+        imgURL: hawan,
+        name: "Hawan",
+        tagline: "Purify your home and soul with the sacred power of fire. Schedule your Hawan ceremony today to invite divine blessings and positive energy into your life."
+    },
+    {
+        imgURL: annaparan,
+        name: "Annaparan Sanskaar",
+        tagline: "Annaprashan Sanskar marks your child’s first taste of solid food, symbolizing the start of nourishment and growth. Celebrate this joyous milestone with a sacred ceremony steeped in Vedic tradition."
+    },
+    {
+        imgURL: sanskar,
+        name: "16 Sanskar",
+        tagline: "Embark on a journey through life’s sacred milestones with the 16 Sanskaars, each ceremony designed to purify, protect, and guide the soul according to Vedic traditions."
+    },
+    {
+        imgURL: shukhshanti,
+        name: "Shukhshanti Hawan",
+        tagline: "Invite peace and prosperity into your home with a Shukh Shanti Hawan. This sacred fire ceremony purifies the environment, dispels negative energies, and fills your space with divine blessings and tranquility."
+    },
+    {
+        imgURL: bhoomipoojan,
+        name: "Bhoomipoojan",
+        tagline: "Begin your new project with divine blessings through Bhoomi Poojan. This sacred ritual purifies the land, seeking the favor of the Earth and deities for prosperity, safety, and success in your endeavors."
+    },
+    {
+        imgURL: grihapravesh,
+        name: "Grihapravesh",
+        tagline: "Bless your new home with a Griha Pravesh ceremony. This sacred ritual purifies your space, inviting positive energy, prosperity, and divine protection as you embark on this new chapter of life."
+    },
+    {
+        imgURL: janamdin,
+        name: "Janamdin",
+        tagline: "Celebrate your special day with a Janmdin Sanskaar, a Vedic ritual that invokes blessings for health, happiness, and longevity. Mark your birthday with sacred traditions that honor life’s journey."
+    },
+    
+    {
+        imgURL: pravachan,
+        name: "Pravachan",
+        tagline: "Enrich your soul with Pravachan, insightful spiritual discourses that illuminate the teachings of the Vedas. Gain wisdom and clarity as you explore the path to a meaningful and peaceful life."
+    },
+    {
+        imgURL: meditation,
+        name: "Meditation",
+        tagline: "Discover inner peace and clarity through Meditation. Our guided sessions help you connect with your true self, reduce stress, and cultivate a deep sense of calm and mindfulness."
+    },
+    {
+        imgURL: assan,
+        name: "Asana",
+        tagline: "Enhance your physical and mental well-being with Asanas. Our sessions focus on traditional yoga postures that build strength, flexibility, and balance while promoting inner harmony."
+    },
+    
+    
 ];
 
 export const services = [
+    {
+        imgURL: truckFast,
+        label: "Authentic Vedic Rituals",
+        subtext: "We adhere to the purity and simplicity of traditional Vedic rituals, ensuring an authentic and spiritually enriching marriage ceremony."
+    },
+    {
+        imgURL: shieldTick,
+        label: "Experienced Acharyas",
+        subtext: "Our ceremonies are conducted by experienced Acharyas who guide you through each ritual with care, respect, and profound understanding."
+    },
+    {
+        imgURL: support,
+        label: "Seamless Legal Process",
+        subtext: "We handle all the legal documentation, providing you with a hassle-free experience from the ceremony to official recognition."
+    },
+];
+
+export const ourServices = [
     {
         imgURL: truckFast,
         label: "Authentic Vedic Rituals",
@@ -90,12 +163,12 @@ export const footerLinks = [
     {
         title: "Our Services",
         links: [
-            { name: "Arya Samaj Marriage", link: "/" },
-            { name: "Naamkaran Sanskaar", link: "/" },
-            { name: "Hawan and Pooja Archana", link: "/" },
-            { name: "Bhoomipoojan", link: "/" },
-            { name: "16 Sanskaar", link: "/" },
-            { name: "Annaparan Sanskaar", link: "/" },
+            { name: "Arya Samaj Marriage", link: "/blog" },
+            { name: "Naamkaran Sanskaar", link: "/blog" },
+            { name: "Hawan and Pooja Archana", link: "/blog" },
+            { name: "Bhoomipoojan", link: "/blog" },
+            { name: "16 Sanskaar", link: "/blog" },
+            { name: "Annaparan Sanskaar", link: "/blog" },
         ],
     },
     {
@@ -103,8 +176,8 @@ export const footerLinks = [
         links: [
             { name: "About us", link: "/" },
             { name: "FAQs", link: "/" },
-            { name: "Blogs", link: "/" },
-            { name: "Privacy policy", link: "/" },
+            { name: "Blogs", link: "/blog" },
+            { name: "Privacy policy", link: "/privacy-policy" },
         ],
     },
     {
@@ -112,7 +185,8 @@ export const footerLinks = [
         links: [
             { name: "a.chandrakant123@gmail.com", link: "mailto:a.chandrakant123@gmail.com" },
             { name: "+9212441177", link: "tel:+9212441177" },
-            { name: "South City 1, Gurugram, Haryana"}
+            { name: "Arya samaj ved mandir h block south city 1 sector 41"},
+            { name: "Maharshi Dayanand Vedic Yogashram, Sector 15, Part 2, Gurugram (HR)"},
         ],
     },
 ];

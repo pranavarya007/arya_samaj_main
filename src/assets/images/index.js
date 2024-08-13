@@ -15,13 +15,35 @@ import mundan from './mundan.png'
 import naamkaran from './naamkaran.png'
 import annaparan from './annaparan.jpg'
 import annivarsary from './annivarsary.jpg'
+import meditation from './meditation.jpg'
+import pravachan from './pravachan.jpg'
+import shukhshanti from './shukhshanti.jpg'
+import sanskar from './sanskar.jpg'
+import assan from './assan.jpg'
+import bhoomipoojan from './bhoomipoojan.jpg'
+import grihapravesh from './grihapravesh.jpg'
+import janamdin from './janamdin.jpg'
 
 import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
+
+//blogs 
+import swami_dayanand from './swami_dayanand.jpg'
+import vedic_rituals from './vedic_rituals.png'
 export {
+
+    meditation,
+    pravachan,
+    shukhshanti,
+    sanskar,
+    assan,
+    bhoomipoojan,
+    grihapravesh,
+    janamdin,
+
     bigShoe1,
     bigShoe2,
     bigShoe3,
@@ -43,5 +65,11 @@ export {
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
-    thumbnailShoe3
+    thumbnailShoe3,
+
+
+    swami_dayanand,
+    vedic_rituals,
+
+
 }
