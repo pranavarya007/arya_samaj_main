@@ -28,7 +28,8 @@ import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
-
+import userProfile from './user-profile.svg'
+import swami_dayanand2 from './swami_dayanand2.jpg'
 
 //blogs 
 import swami_dayanand from './swami_dayanand.jpg'
@@ -50,6 +51,8 @@ export {
     logo,
     customer1,
     customer2,
+    userProfile,
+    swami_dayanand2,
 
     footerLogo,
     headerLogo,

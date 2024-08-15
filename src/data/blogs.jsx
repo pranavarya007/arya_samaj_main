@@ -1,6 +1,6 @@
 // src/data/blogs.js
 
-import { annaparan, annivarsary, assan, bhoomipoojan, bigShoe3, grihapravesh, hawan, janamdin, meditation, mundan, naamkaran, pravachan, sanskar, shukhshanti, swami_dayanand, vedic_rituals } from "../assets/images";
+import { swami_dayanand2, annaparan, annivarsary, assan, bhoomipoojan, bigShoe3, grihapravesh, hawan, janamdin, meditation, mundan, naamkaran, pravachan, sanskar, shukhshanti, swami_dayanand, vedic_rituals } from "../assets/images";
 
 export const blogs = [
     {
@@ -73,7 +73,7 @@ export const blogs = [
       For those seeking a deeper understanding of their spiritual roots, Arya Samaj offers a journey back to the timeless values that have shaped human civilization for millennia.
     </p>
   `, 
-      image: swami_dayanand,
+      image: swami_dayanand2,
     },
 
 

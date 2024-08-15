@@ -1,11 +1,11 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, hawan, mundan, naamkaran, annaparan, annivarsary, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, sanskar, shukhshanti, bhoomipoojan, grihapravesh, janamdin, meditation, assan, pravachan } from "../assets/images";
+import { userProfile, bigShoe1, bigShoe2, bigShoe3, customer1, customer2, hawan, mundan, naamkaran, annaparan, annivarsary, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, sanskar, shukhshanti, bhoomipoojan, grihapravesh, janamdin, meditation, assan, pravachan } from "../assets/images";
 
 
 
 export const navLinks = [
     { href: "/", label: "Home" },
-    { href: "#about-us", label: "About Us" },
+    { href: "/blog/1", label: "About Us" },
     { href: "#services", label: "Services" },
     { href: "/contact", label: "Contact Us" },
 ];
@@ -38,15 +38,31 @@ export const products = [
         tagline: "Experience the purity of a Vedic Arya Samaj marriage, where simplicity and sacred rituals unite two souls in a bond of love and commitment. Our ceremonies honor tradition, ensuring a meaningful and spiritually uplifting wedding."
     },
     {
-        imgURL: mundan,
-        name: "Mundan Sanskaar",
-        tagline: "Mark a pivotal moment in your child’s journey, ensuring a life filled with positivity, good health, and divine blessings."
+        imgURL: janamdin,
+        name: "Janmdin",
+        tagline: "Celebrate your special day with a Janmdin Sanskaar, a Vedic ritual that invokes blessings for health, happiness, and longevity. Mark your birthday with sacred traditions that honor life’s journey."
     },
     {
         imgURL: naamkaran,
         name: "Naamkaran Sanskaar",
         tagline: "Celebrate the beginning of your child's journey with a name that carries blessings and meaning. Book your Naamkaran Sanskaar ceremony today to invoke divine protection and prosperity."
     },
+    {
+        imgURL: grihapravesh,
+        name: "Grihapravesh",
+        tagline: "Bless your new home with a Griha Pravesh ceremony. This sacred ritual purifies your space, inviting positive energy, prosperity, and divine protection as you embark on this new chapter of life."
+    },
+    {
+        imgURL: annaparan,
+        name: "Annaprashan Sanskaar",
+        tagline: "Annaprashan Sanskar marks your child’s first taste of solid food, symbolizing the start of nourishment and growth. Celebrate this joyous milestone with a sacred ceremony steeped in Vedic tradition."
+    },
+    {
+        imgURL: mundan,
+        name: "Mundan Sanskaar",
+        tagline: "Mark a pivotal moment in your child’s journey, ensuring a life filled with positivity, good health, and divine blessings."
+    },
+    
     {
         imgURL: annivarsary,
         name: "Anniversary Hawan",
@@ -57,11 +73,7 @@ export const products = [
         name: "Hawan",
         tagline: "Purify your home and soul with the sacred power of fire. Schedule your Hawan ceremony today to invite divine blessings and positive energy into your life."
     },
-    {
-        imgURL: annaparan,
-        name: "Annaparan Sanskaar",
-        tagline: "Annaprashan Sanskar marks your child’s first taste of solid food, symbolizing the start of nourishment and growth. Celebrate this joyous milestone with a sacred ceremony steeped in Vedic tradition."
-    },
+    
     {
         imgURL: sanskar,
         name: "16 Sanskar",
@@ -77,16 +89,8 @@ export const products = [
         name: "Bhoomipoojan",
         tagline: "Begin your new project with divine blessings through Bhoomi Poojan. This sacred ritual purifies the land, seeking the favor of the Earth and deities for prosperity, safety, and success in your endeavors."
     },
-    {
-        imgURL: grihapravesh,
-        name: "Grihapravesh",
-        tagline: "Bless your new home with a Griha Pravesh ceremony. This sacred ritual purifies your space, inviting positive energy, prosperity, and divine protection as you embark on this new chapter of life."
-    },
-    {
-        imgURL: janamdin,
-        name: "Janamdin",
-        tagline: "Celebrate your special day with a Janmdin Sanskaar, a Vedic ritual that invokes blessings for health, happiness, and longevity. Mark your birthday with sacred traditions that honor life’s journey."
-    },
+    
+    
     
     {
         imgURL: pravachan,
@@ -145,13 +149,13 @@ export const ourServices = [
 
 export const reviews = [
     {
-        imgURL: customer1,
+        imgURL: userProfile,
         customerName: 'Amit Dhaiya',
         rating: 5,
         feedback: "The Acharyas at Arya Samaj Mandir are incredibly knowledgeable and kind. Our Bhoomi Poojan was perfect."
     },
     {
-        imgURL: customer2,
+        imgURL: userProfile,
         customerName: 'Amit & Priya',
         rating: 5,
         feedback: "Arya Samaj Mandir made our wedding day truly special. The rituals were performed with such dedication and precision. Highly recommended !!!"
@@ -183,10 +187,10 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "a.chandrakant123@gmail.com", link: "mailto:a.chandrakant123@gmail.com" },
+            { name: "aryasmajmandir7@gmail.com", link: "mailto:aryasmajmandir7@gmail.com" },
             { name: "+9212441177", link: "tel:+9212441177" },
-            { name: "Arya samaj ved mandir h block south city 1 sector 41"},
-            { name: "Maharshi Dayanand Vedic Yogashram, Sector 15, Part 2, Gurugram (HR)"},
+            { name: "Arya samaj ved mandir h block south city 1 sector 41", link: "https://maps.app.goo.gl/S2U9GtP5gbYJsMDU9"},
+            { name: "Maharshi Dayanand Vedic Yogashram, Sector 15, Part 2, Gurugram (HR)", link: "https://maps.app.goo.gl/JDkx8MSd527cCzbb9"},
         ],
     },
 ];

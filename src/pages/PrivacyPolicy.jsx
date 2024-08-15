@@ -37,7 +37,7 @@ const PrivacyPolicy = () => {
 
       <h2 className="text-2xl font-bold text-coral-red mb-2">Contact Us</h2>
       <p className="mb-4">
-        If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:a.chandrakant123@gmail.com" className='font-bold'>a.chandrakant123@gmail.com.</a>
+        If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:aryasmajmandir7@gmail.com" className='font-bold'>aryasmajmandir7@gmail.com</a>
       </p>
 
       <p className="text-sm text-gray-600">

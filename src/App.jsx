@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Nav, WhatsAppButton, CallButton  } from './components';
+import { Nav, WhatsAppButton, CallButton, MarriageServiceSection  } from './components';
 import {
   CustomerReviews,
   Footer,
@@ -30,14 +30,20 @@ const App = () => {
                 
               </section>
               <section className='padding'>
-                <PopularProducts />
-              </section>
-              <section className='padding'>
                 <AryaSamajMarriage />
               </section>
               <section className='padding-x py-10'>
                 <Services />
               </section>
+              <section className='padding-x py-10'>
+                <MarriageServiceSection />
+              </section>
+              
+
+              <section className='padding'>
+                <PopularProducts />
+              </section>
+              
               <section className='padding'>
                 <SpecialOffer />
               </section>
