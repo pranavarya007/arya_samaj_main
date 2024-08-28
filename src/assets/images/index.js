@@ -30,6 +30,7 @@ import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import userProfile from './user-profile.svg'
 import swami_dayanand2 from './swami_dayanand2.jpg'
+import upanyam from './upanyan.jpg'
 
 //blogs 
 import swami_dayanand from './swami_dayanand.jpg'
@@ -44,6 +45,7 @@ export {
     bhoomipoojan,
     grihapravesh,
     janamdin,
+    upanyam,
 
     bigShoe1,
     bigShoe2,

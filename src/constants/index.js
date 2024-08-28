@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { userProfile, bigShoe1, bigShoe2, bigShoe3, customer1, customer2, hawan, mundan, naamkaran, annaparan, annivarsary, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, sanskar, shukhshanti, bhoomipoojan, grihapravesh, janamdin, meditation, assan, pravachan } from "../assets/images";
+import { userProfile, bigShoe1, bigShoe2, bigShoe3, customer1, customer2, hawan, mundan, naamkaran, annaparan, annivarsary, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, sanskar, shukhshanti, bhoomipoojan, grihapravesh, janamdin, meditation, assan, pravachan, upanyam } from "../assets/images";
 
 
 
@@ -107,7 +107,11 @@ export const products = [
         name: "Asana",
         tagline: "Enhance your physical and mental well-being with Asanas. Our sessions focus on traditional yoga postures that build strength, flexibility, and balance while promoting inner harmony."
     },
-    
+    {
+        imgURL: upanyam,
+        name: "Upanyan Sanskar",
+        tagline: "Upanayan Sanskar is a sacred Hindu rite of passage that marks the beginning of a boy's spiritual journey. Known as the sacred thread ceremony, it initiates the child into learning and discipline, symbolizing his entry into the student phase of life."
+    },
     
 ];
 
