@@ -1,6 +1,7 @@
 {
-  "name": "nike-2-0",
-  "private": true,
+  "name": "arya-samaj-mandir",
+  "homepage": "https://www.aryasamaaj.com/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
